@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+    <link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+
+    <title>Little Kitchen by Daguś</title>
+</head>
+
+<body>
+
+    <!--Div Wrapper ma spajać całośćstron-->
+
+    <div id="wrapper">
+
+        <!--W nagłówku znajduje się tylko zdjęcie blatu kuchennego-->
+
+        <header>
+            <h1>Little Kitchen by Daguś</h1>
+            <img src="photo/header_kitchen.jpg" alt="Poznaj naszą kucnię">
+
+        </header>
+
+        <!--Tworzymy menu bez elementów target="_blank"-->
+
+        <nav>
+            <a class="menu active" href="index.html">Witaj w mojej kuchni</a>
+
+            <a class="menu" href="wytrawnie.html">Dobrze bo wytrawnie</a>
+
+            <a class="menu" href="slodko.html">Słodkie chwile</a>
+
+            <a class="menu" href="fit.html">Trochę fit/power</a>
+        </nav>
+        <!--tu rozpoczyna się sekcja z artykułami-->
+        <section>
+
+            <article>
+
+                <h1>Cześć, mam na imię Dagmara i zapraszam Cię do mojego świata smaków</h1>
+
+                <p><img class="right" src="photo/kucharka_index.jpg" alt="Moje zdjęcie z nutą cynamonowego uśmiechu">Zapraszam Cię do mojego świata. Będzie to podróż po krainach smaków. Każdy kierunek ma własny odmienny klimat. Będzie raz słodko, raz ostro. Czasem na poważnie a innym razem z uśmiechem. To miejsce jest swoistą mapą wgraną w GPS mojej duszy, która znajduje ukojenie w kuchni. Dla mnie jedzenie to sztuka i pasja. Jeśli chcesz udać się ze mną w podróż smaków to wskakuj śmiało. Zapinamy pasy i lecimy...</p>
+
+            </article>
+
+            <article>
+
+                <h1>Gdzie jest inspiracja? Wszędzie!</h1>
+
+                <p><img class="inspiration" src="photo/inspiracja_index.jpg" alt="ispirujący tekst">Moim źródłem inspiracji jest coś co nigdy się nie kończy. To samo życie, otaczający nas świat. Czasami na rewelacyjny pomysł wpadnę po przebudzeniu, słysząc jak świat się budzi, a czasem jadąc do pracy samochodem. Przygotowywane potrawy często stanowią odzwierciedlenie moejgo nastroju. Źródłem inspiracji są również ludzie, oraz mój cudowny pies Rojber. Wam też polecam czasami poprostu wyłączyć się na chwilę i wsłuchać w otaczającą nas rzeczywistość. Możecie odkryć nieodkryte.</p>
+                <div class="page_up">
+                    <a class="page_up" href="javascript:scroll(0,0)"><img class="arrow" src="page_up.png"></a>
+                </div>
+
+            </article>
+
+            <!--mały filmik zwiększający oglądalność-->
+            <h1 class="iframe_h1">Sprawdź co Cię czeka</h1>
+
+            <div id="iframe">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0C4fX_x_Vsg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+            </div>
+
+
+
+        </section>
+        <div class="page_up">
+            <a class="page_up" href="javascript:scroll(0,0)"><img class="arrow" src="page_up.png"></a>
+        </div>
+        <!--koniec sekcji z artykułami-->
+
+
+
+        <footer>The site was created by me, my world, my imagination</footer>
+
+        <!--tu znajduje się stopka z miejscem na komentarz-->
+
+        <form class="comment">
+            <h2>Zostaw po sobie ślad</h2>
+            <textarea>   
+            </textarea>
+        </form>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
