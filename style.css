@@ -126,6 +126,19 @@ h2 {
     margin-bottom: 20px;
 
 }
+.ukryj 
+{
+    display: none;
+}
+span
+{
+    cursor: pointer;
+    font-weight: bold;
+}
+span:hover
+{
+    text-decoration: underline;
+}
 
 /*zdjęcie do przepisów*/
 

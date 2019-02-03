@@ -16,3 +16,30 @@ $(document).ready(function () {
     });
 
 });
+//pokazywanie i ukrywanie elementów (przepis i składniki)
+$("document").ready(
+    function()
+    {
+        $("div.pokaz span").each(
+            function(i)
+            {
+                $(this).addClass("gh"+i);
+            }
+        );
+
+        $("div.ukryj").each(
+            function(i)
+            {
+                $(this).addClass("gh"+i);
+            }
+        );
+
+
+        $("div.pokaz span").click(
+            function()
+            {
+                $("div."+$(this).attr("class")).toggle();
+            }
+        );
+    }
+);
